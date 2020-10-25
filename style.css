@@ -1259,7 +1259,7 @@
         }
         
         .about-page .welcome-content .entry-content {
-            color: #929191;
+            color: #333333;
         }
         
         .about-page .welcome-wrap img {
@@ -1311,7 +1311,7 @@
         
         .testimonial-cont p {
             padding-bottom: 32px;
-            font-size: 30px;
+            font-size: 17px;
             font-weight: 600;
             line-height: 1.6;
             font-style: italic;
@@ -1347,7 +1347,7 @@
         
         .help-us {
             padding: 70px 0 96px;
-            background: #ff3700;
+            background: #e21a7d;
         }
         
         .help-us h2 {
