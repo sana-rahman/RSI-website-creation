@@ -1666,6 +1666,7 @@
         
         .news-content {
             margin-bottom: 64px;
+            align-content: center;
         }
         
         .news-content:nth-last-of-type(1) {
