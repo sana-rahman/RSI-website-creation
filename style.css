@@ -818,13 +818,23 @@
         /*
 # Welcome
 --------------------------------*/
-
-        .home-page-welcome {
+          .home-page-welcome {
+              position: relative;
+              padding: 96px 0;
+              background: url("images/welcome-bg.jpg") no-repeat center;
+              background-size: cover;
+              z-index: 99;
+              color: white !important;
+          }
+        .first {
             position: relative;
             padding: 96px 0;
-            background: url("images/welcome-bg.jpg") no-repeat center;
+            background: url("images/ChildrenandBooks.jpg") center;
             background-size: cover;
-            z-index: 99;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.3)) , url("images/ChildrenandBooks.jpg");
+            z-index: 198;
+            color: white !important;
+            font-family:'Montserrat', sans-serif !important;
         }
 
         .home-page-welcome::after {
